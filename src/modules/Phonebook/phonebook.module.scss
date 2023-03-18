@@ -7,10 +7,28 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: darkseagreen;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 400px 400px;
+  gap: 30px;
+  justify-content: center;
+}
+
+.block {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.block_phonebook {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 15px;
 }

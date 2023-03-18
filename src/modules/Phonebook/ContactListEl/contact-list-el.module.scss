@@ -1,0 +1,26 @@
+.listItem {
+  list-style-type: circle;
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button {
+  background-color: #d64215;
+  border: 1px solid rgba(54, 54, 54, 0.6);
+  font-weight: 600;
+  outline: none;
+  border-radius: 50px;
+  cursor: pointer;
+  height: 30px;
+  width: 65px;
+  opacity: 1;
+}
+
+.button:hover {
+  background-color: #fff;
+}
+
+.contacts {
+}
